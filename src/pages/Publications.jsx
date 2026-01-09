@@ -19,7 +19,7 @@ const PublicationsList = () => {
   useEffect(() => {
     const fetchPubs = async () => {
       try {
-        const response = await fetch("/profile/Publications.json");
+        const response = await fetch("/profile/publications.json");
         const data = await response.json();
         setPublications(data.publications || []);
       } catch (error) {
