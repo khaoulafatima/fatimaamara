@@ -1,0 +1,85 @@
+{    "experiences": [
+       {"company": "Department of Computer Science, Universita degli Studi di Bari Aldo Moro, Bari, Italy",
+            "period": "April 11, 2025 - present",
+            "contract": "Research Fellow",
+           "logo": "/images/uniba.png",
+             "missions": [
+             "Project: Hybrid solutions for the creation, completion and refinement of Knowledge Graph.",
+             "Research Reference Project: FAIR (Future Artificial Intelligence Research), Spoke 6 (Symbiotic AI)"
+            ],
+  "tools": [
+                "Knowledge Graph Creation",
+                "Knowledge Graph Completion",
+                "Knowledge Graph Refinement",
+                "Hybrid AI Solutions",  
+                "Symbiotic AI"
+            ]},
+      {
+            "company": "Department of Computer Science, Universita degli Studi di Bari Aldo Moro, Bari, Italy",
+            "period": "July 8, 2024 - April 10, 2025",
+            "contract": "Research Fellow",
+              "logo": "/images/uniba.png",
+            "missions": [
+                "Project: Models and methods for the creation of corpus in open format and knowledge discovery using hybrid approaches."
+            ],
+            "tools": [
+                "Knowledge Graph",
+                "Corpus Creation",
+                "Knowledge Discovery",
+                "Hybrid Methods",
+                "Ontology Engineering"
+            ]
+        },
+        {
+            "company": "ShodhGuru Research Lab",
+            "period": "2022 - Present",
+            "contract": "Team Member",
+            "logo": "/images/labsh.png",
+            "missions": [
+               "Volenteering as a team member in ShodhGuru Research Lab, contributing to various research projects and initiatives."
+            ],
+            "tools": [
+                "Research Projects",
+                "Collaborative Research",
+                "Academic Writing"
+            ]
+        },
+        {
+            "company": "Institute of Information Systems, University of Lubeck, Germany",
+            "period": "April 23 - Mai 7, 2023",
+            "contract": "Research Intern",
+            "logo": "/images/lubeck.png",
+            "missions": [
+                       "Conducted research as part of my PhD thesis.",
+                       "Analyzed experimental results and prepared technical documentation to support thesis work.",
+                       "Collaborated with the research group to refine methodology and optimize semantic reasoning approaches."]  ,
+            "tools": [
+                "Knowledge Representation",
+                "Semantic Modeling",
+                "Ontology Engineering", 
+                "Reasoning & Inference",
+                "IoT (Internet of Things)"
+            ]
+        },
+
+        {
+            "company": "Department of Mathematics and Computer Science, Abbes Laghrour University Khenchela, Algeria",
+            "period": "November, 2019 - 2023",
+            "contract": "Temporary Lecturer",
+            "logo": "/images/khen.png",
+            "missions": [
+                "Delivered lectures and practical sessions.",
+                "Prepared course materials, lab exercises, and assignments to enhance learning.",
+                "Supervised student projects and evaluated coursework."
+            ],
+            "tools": [
+                "Human-Computer Interaction", 
+                "Machines Structure", 
+                "C Programming", 
+                "Database",
+                "Matlab Programming", 
+                "Java Programming"
+            ]
+        }
+    ]
+}
