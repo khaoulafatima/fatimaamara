@@ -4,6 +4,10 @@
   "text": "Fatima is thoughtful and observant, attentive to the quiet details that give meaning to moments and places. She blends curiosity with creativity, moving naturally between reflection and action. Grounded yet evolving, she carries a calm strength shaped by learning, experience, and intention.",
   "photos": [
     {
+      "src": "/images/cook.png",
+      "label": "Savoring Serenity"
+    },
+    {
       "src": "/images/life/nature.jpg",
       "label": "Nature & silence"
     },
@@ -30,6 +34,7 @@
     "Nature walks",
     "Reading",
     "Writing",
+    "Graphic Design",
     "Travel",
     "Quiet moments"
   ],

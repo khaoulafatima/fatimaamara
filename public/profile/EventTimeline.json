@@ -1,0 +1,93 @@
+{
+  "EventTimeline": [
+    {
+      "id": "evt-iswc-2026",
+      "name": "International Semantic Web Conference",
+      "acronym": "ISWC 2026",
+      "type": "Conference",
+      "year": 2026,
+      "role": "Web Presence & Publicity Chair",
+      "website": "https://iswc2026.semanticweb.org"
+    },
+    {
+      "id": "evt-iwsiot-2025",
+      "name": "International Workshop on Semantic IoT",
+      "acronym": "IWSIoT 2025",
+      "type": "Workshop",
+      "edition": 4,
+      "year": 2025,
+      "role": "Workshop Chair",
+      "co_located_with": "KGSWC 2025",
+      "website": "https://kgsw.org/IWSIoT_2025_4th_International_Workshop_on_Semantic_IoT.php"
+    },
+    {
+      "id": "evt-kgswc-2022-2025",
+      "name": "Knowledge Graph and Semantic Web Conference",
+      "acronym": "KGSWC",
+      "type": "Conference",
+      "years": [2022, 2023, 2024, 2025],
+      "roles": [
+        "Publicity Chair",
+        "Program Committee Member"
+      ],
+      "website": "https://kgsw.org"
+    },
+    {
+      "id": "evt-kgswc-winter-school",
+      "name": "KGSWC Winter School",
+      "type": "Winter School",
+      "years": [2022, 2023, 2024],
+      "role": "Organizing Team"
+    },
+    {
+      "id": "evt-iwsiot-2023",
+      "name": "International Workshop on Semantic IoT",
+      "acronym": "IWSIoT 2023",
+      "type": "Workshop",
+      "edition": 2,
+      "year": 2023,
+      "role": "Workshop Chair",
+      "co_located_with": "KGSWC 2023"
+    },
+    {
+      "id": "evt-ai4s-2023-2025",
+      "name": "International Conference on Artificial Intelligence for Sustainability",
+      "acronym": "AI4S",
+      "type": "Conference",
+      "years": [2023, 2024, 2025],
+      "role": "Publicity Chair"
+    },
+    {
+      "id": "evt-egetc-2023-2025",
+      "name": "International Conference on Electronic Governance with Emerging Technologies",
+      "acronym": "EGETC",
+      "type": "Conference",
+      "years": [2023, 2024, 2025],
+      "role": "Publicity Chair"
+    },
+    {
+      "id": "evt-iwsiot-2022",
+      "name": "International Workshop on Semantic IoT",
+      "acronym": "IWSIoT 2022",
+      "type": "Workshop",
+      "edition": 1,
+      "year": 2022,
+      "role": "Chair",
+      "co_located_with": "KGSWC 2022"
+    },
+    {
+      "id": "evt-iwrsiot-2022",
+      "name": "Workshop on Role of Semantic IoT: Reasoning & Representation",
+      "acronym": "IWRSIoT 2022",
+      "type": "Workshop",
+      "year": 2022,
+      "role": "Organizer",
+      "collaboration": [
+        "Abbas Laghrour University of Khenchela, Algeria",
+        "ShodhGuru Research Labs, India",
+        "Tamaulipas Autonomous University, Mexico"
+      ]
+    }
+  ],
+  "last_updated": "2026-01-10"
+}

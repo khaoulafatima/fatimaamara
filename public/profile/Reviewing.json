@@ -1,0 +1,87 @@
+{
+  "Reviewing": {
+    "journals": [
+      {
+        "name": "Engineering Applications of Artificial Intelligence",
+        "publisher": "Elsevier",
+        "date": "August 2025"
+      },
+      {
+        "name": "Bulletin of Electrical Engineering and Informatics (BEEI)"
+      },
+      {
+        "name": "International Journal of Web Information Systems"
+      },
+      {
+        "name": "Semantic Web Journal",
+        "publisher": "IOS Press",
+        "acronym": "SWJ"
+      }
+    ],
+    "conferences": [
+      {
+        "name": "4th International Conference on Electronic Governance with Emerging Technologies",
+        "acronym": "EGETC",
+        "year": 2025
+      },
+      {
+        "name": "40th ACM/SIGAPP Symposium On Applied Computing",
+        "acronym": "SAC",
+        "year": 2025
+      },
+      {
+        "name": "37th International Conference on Legal Knowledge and Information Systems",
+        "acronym": "JURIX",
+        "year": 2024,
+        "role": "Sub-reviewer"
+      },
+      {
+        "name": "24th International Conference on Knowledge Engineering and Knowledge Management",
+        "acronym": "EKAW",
+        "year": 2024,
+        "role": "Sub-reviewer"
+      },
+      {
+        "name": "Knowledge Graph and Semantic Web Conference",
+        "acronym": "KGSWC",
+        "years": [2024, 2025]
+      },
+      {
+        "name": "International Conference On Artificial Intelligence: Towards Sustainable Intelligence",
+        "acronym": "AI4S",
+        "years": [2023, 2024, 2025]
+      },
+      {
+        "name": "International Conference on Applied Machine Learning and Data Analytics",
+        "acronym": "AMALDA",
+        "years": [2021, 2022, 2023, 2024]
+      }
+    ],
+    "workshops": [
+      {
+        "name": "Retrieval-Augmented Generation Enabled by Knowledge Graphs",
+        "acronym": "RAGE-KG",
+        "year": 2025,
+        "event": "ISWC 2025"
+      },
+      {
+        "name": "4th International Workshop on LLM-Integrated Knowledge Graph Generation from Text",
+        "acronym": "LLM-TEXT2KG",
+        "year": 2025,
+        "event": "ESWC 2025"
+      },
+      {
+        "name": "International Workshop on Semantic Internet of Things",
+        "acronym": "IWSIoT",
+        "years": [2022, 2023],
+        "co_located": "KGSWC"
+      },
+      {
+        "name": "International Workshop on Multilingual Semantic Web",
+        "acronym": "IWMSW",
+        "years": [2022, 2023, 2024],
+        "co_located": "KGSWC"
+      }
+    ]
+  }
+}

@@ -7,7 +7,8 @@ import EducationTimeline from "./pages/Education";
 import Publications from "./pages/Publications";  
 import Contact from "./pages/contact";
 import Fragments from "./pages/Fragments";
-
+import EventTimeline from "./pages/EventTimeline";
+import Reviewing from "./pages/Reviewing";
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
            <Route path="education" element={<EducationTimeline />} />
            <Route path="Publications" element={<Publications/>} />
            <Route path="contact" element={<Contact/>} />    
-          <Route path="Fragments" element={<Fragments/>} />
+           <Route path="Fragments" element={<Fragments/>} />
+           <Route path="EventTimeline" element={<EventTimeline/>} />
+           <Route path="Reviewing" element={<Reviewing/>} />
         </Route>
       </Routes>
     </Router>
