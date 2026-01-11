@@ -91,7 +91,7 @@ const FragmentsComponent = () => {
               alt={photo.label}
               sx={{
                 width: "100%",
-                height: 260,
+                height: 400,
                 objectFit: "cover",
                 borderRadius: 3,
                 boxShadow: 4,
