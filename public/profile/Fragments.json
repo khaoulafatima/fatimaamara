@@ -6,26 +6,6 @@
     {
       "src": "/images/cook.png",
       "label": "Savoring Serenity"
-    },
-    {
-      "src": "/images/life/nature.jpg",
-      "label": "Nature & silence"
-    },
-    {
-      "src": "/images/life/books.jpg",
-      "label": "Reading & reflection"
-    },
-    {
-      "src": "/images/life/travel.jpg",
-      "label": "Exploring places"
-    },
-    {
-      "src": "/images/life/coffee.jpg",
-      "label": "Slow moments"
-    },
-    {
-      "src": "/images/life/coding.jpg",
-      "label": "Creating meaning"
     }
   ],
   "hobbies": [
