@@ -66,13 +66,40 @@ const FragmentsComponent = () => {
         </Typography>
       </Paper>
 
+      {/* Hobbies */}
+      <Box mt={10} textAlign="center">
+        <Typography
+          variant="h6"
+          fontWeight="bold"
+          color={colors.textLight}
+          gutterBottom
+        >
+          What I enjoy
+        </Typography>
+
+        <Box display="flex" justifyContent="center" flexWrap="wrap" gap={1}>
+          {data.hobbies.map((hobby, index) => (
+            <Chip
+              key={index}
+              label={hobby}
+              sx={{
+                backgroundColor: `${colors.primary}15`,
+                color: colors.primary,
+                fontWeight: 700,
+              }}
+            />
+          ))}
+        </Box>
+      </Box>
+
       {/* Photo Gallery */}
       <Box
+        mt={10}
         display="grid"
         gridTemplateColumns={{
           xs: "1fr",
           sm: "1fr",
-          md: "1fr 1fr", 
+          md: "1fr", 
         }}
         gap={3}
       >
@@ -94,7 +121,7 @@ const FragmentsComponent = () => {
                 height: 400,
                 objectFit: "cover",
                 borderRadius: 3,
-                boxShadow: 4,
+                boxShadow: 2,
               }}
             />
             <Typography
@@ -110,38 +137,14 @@ const FragmentsComponent = () => {
         ))}
       </Box>
 
-      {/* Hobbies */}
-      <Box mt={10} textAlign="center">
-        <Typography
-          variant="h6"
-          fontWeight="bold"
-          color={colors.textLight}
-          gutterBottom
-        >
-          What I enjoy
-        </Typography>
-
-        <Box display="flex" justifyContent="center" flexWrap="wrap" gap={1}>
-          {data.hobbies.map((hobby, index) => (
-            <Chip
-              key={index}
-              label={hobby}
-              sx={{
-                backgroundColor: `${colors.primary}15`,
-                color: colors.primary,
-                fontWeight: 500,
-              }}
-            />
-          ))}
-        </Box>
-      </Box>
+      
 
       {/* Signature */}
       <Typography
-        mt={10}
+        mt={15}
         textAlign="center"
         fontStyle="italic"
-        color="text.secondary"
+        color="primary"
       >
         {data.signature}
       </Typography>
