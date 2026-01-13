@@ -101,7 +101,7 @@ const ExperienceTimeline = () => {
                 <Typography
                   variant="subtitle1"
                   fontWeight="bold"
-                  color={colors.textLight}
+                  color={colors.primary}
                   sx={{ wordBreak: "break-word" }}
                 >
                   {exp.company} — {exp.contract}

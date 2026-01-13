@@ -85,7 +85,7 @@ const FragmentsComponent = () => {
               sx={{
                 backgroundColor: `${colors.primary}15`,
                 color: colors.primary,
-                fontWeight: 700,
+                fontWeight: 900,
               }}
             />
           ))}
@@ -114,26 +114,26 @@ const FragmentsComponent = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
            <Box
-  component="img"
-  src={photo.src}
-  alt={photo.label}
-  sx={{
-    display: "block",   // important
-    mx: "auto",         // horizontal centering
-    width: 650,
-    height: 400,
-    objectFit: "cover",
-    borderRadius: 3,
-    boxShadow: 2,
-  }}
-/>
+             component="img"
+            src={photo.src}
+            alt={photo.label}
+            sx={{
+              display: "block",   // important
+              mx: "auto",         // horizontal centering
+              width: 650,
+              height: 400,
+              objectFit: "cover",
+              borderRadius: 3,
+              boxShadow: 2,
+            }}
+          />
 
             <Typography
-              variant="caption"
+              variant="h6"
               display="block"
               textAlign="center"
               mt={1}
-              color="textlight"
+              color={colors.textLight}
             >
               {photo.label}
             </Typography>
@@ -146,9 +146,10 @@ const FragmentsComponent = () => {
       {/* Signature */}
       <Typography
         mt={15}
+        variant="h4"
         textAlign="center"
         fontStyle="italic"
-        color="primary"
+        color={colors.primary}
       >
         {data.signature}
       </Typography>

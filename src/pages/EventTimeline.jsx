@@ -84,7 +84,7 @@ const EventTimelinePage = () => {
                                     transition={{ duration: 0.5, delay: index * 0.2 }}
                                 >
                                     <Paper sx={{ p: 2, borderRadius: 2 }}>
-                                        <Typography variant="subtitle1" fontWeight="bold" color={colors.textLight} mb={0.5}>
+                                        <Typography variant="subtitle1" fontWeight="bold" color={colors.primary} mb={0.5}>
                                             {event.name} {event.acronym ? `(${event.acronym})` : ""}
                                         </Typography>
 

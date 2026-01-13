@@ -69,7 +69,7 @@ const PublicationsList = () => {
             }}
           >
             {/* Title */}
-            <Typography variant="subtitle1" fontWeight="bold" color={colors.textLight}>
+            <Typography variant="subtitle1" fontWeight="bold" color={colors.primary}>
               {pub.title}
             </Typography>
 
