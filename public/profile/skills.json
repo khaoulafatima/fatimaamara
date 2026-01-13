@@ -14,7 +14,7 @@
     },
     {
       "category": "Web",
-      "items": ["HTML", "CSS", "PHP", "XML"]
+      "items": ["HTML", "CSS", "PHP", "XML", "JSON", "JavaScript"]
     },
     {
       "category": "Tools",

@@ -2,6 +2,18 @@
   "Reviewing": {
     "journals": [
       {
+        "name": "Artificial Intelligence and Law (Springer Nature)",
+        "publisher": "Springer Nature",
+        "date": "January 2026"
+      },
+      {
+        "name": "Engineering Applications of Artificial Intelligence",
+        "publisher": "Elsevier",
+        "date": "August 2025"
+      },
+
+
+      {
         "name": "Engineering Applications of Artificial Intelligence",
         "publisher": "Elsevier",
         "date": "August 2025"
@@ -10,7 +22,9 @@
         "name": "Bulletin of Electrical Engineering and Informatics (BEEI)"
       },
       {
-        "name": "International Journal of Web Information Systems"
+        "name": "International Journal of Web Information Systems",
+        "publisher": "Emerald Publishing",
+        "acronym": "IJWIS"
       },
       {
         "name": "Semantic Web Journal",
