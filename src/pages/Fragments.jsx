@@ -105,6 +105,7 @@ const FragmentsComponent = () => {
       >
         {data.photos.map((photo, index) => (
           <motion.div
+          align="center"
             key={index}
             whileHover={{ scale: 1.03 }}
             initial={{ opacity: 0 }}
@@ -112,24 +113,27 @@ const FragmentsComponent = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <Box
-              component="img"
-              src={photo.src}
-              alt={photo.label}
-              sx={{
-                width: "100%",
-                height: 400,
-                objectFit: "cover",
-                borderRadius: 3,
-                boxShadow: 2,
-              }}
-            />
+           <Box
+  component="img"
+  src={photo.src}
+  alt={photo.label}
+  sx={{
+    display: "block",   // important
+    mx: "auto",         // horizontal centering
+    width: 650,
+    height: 400,
+    objectFit: "cover",
+    borderRadius: 3,
+    boxShadow: 2,
+  }}
+/>
+
             <Typography
               variant="caption"
               display="block"
               textAlign="center"
               mt={1}
-              color="text.secondary"
+              color="textlight"
             >
               {photo.label}
             </Typography>
