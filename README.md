@@ -1,4 +1,4 @@
-# Fatima Amara — Personal Website
+# Fatima Zahra AMARA — Personal Website
 
 Welcome to my personal website! This site showcases my professional profile, research, skills, and ways to connect with me.
 
