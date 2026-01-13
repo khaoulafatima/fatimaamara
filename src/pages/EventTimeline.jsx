@@ -46,20 +46,26 @@ const EventTimelinePage = () => {
         <Container sx={{ my: { xs: 10, md: 14 } }}>
             {/* Header */}
             <Typography
-                variant="h4"
-                fontWeight="bold"
-                textAlign="center"
-                gutterBottom
-                color={colors.primary}
-            >
-                Event Organization Activities
-            </Typography>
+                      variant="h2"
+                      align="center"
+                      fontWeight="900"
+                      sx={{
+                        mb: 2,
+                        background:
+                          "linear-gradient(90deg, #253C67)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    >
+                      Event Organization Activities
+                    </Typography>
 
             <Typography
-                variant={isMobile ? "body1" : "h6"}
-                color={colors.textLight}
-                textAlign="center"
-                gutterBottom
+                variant={isMobile ? "body1" : "h5"}
+                        color={colors.textLight}
+                        textAlign="center"
+                        gutterBottom
+                        sx={{ fontWeight: "bold", fontStyle: "italic" }}
             >
                 Academic & professional contributions in conferences and workshops
             </Typography>

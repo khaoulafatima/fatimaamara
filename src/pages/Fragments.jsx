@@ -25,14 +25,19 @@ const FragmentsComponent = () => {
     <Container maxWidth="lg" sx={{ my: { xs: 6, md: 14 } }}>
       {/* Title */}
       <Typography
-        variant="h3"
-        textAlign="center"
-        fontWeight="bold"
-        color={colors.primary}
-        gutterBottom
-      >
-        {data.title}
-      </Typography>
+                variant="h2"
+                align="center"
+                fontWeight="900"
+                sx={{
+                  mb: 2,
+                  background:
+                    "linear-gradient(90deg, #253C67)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                Fragments
+              </Typography>
 
       {/* Subtitle */}
       <Typography

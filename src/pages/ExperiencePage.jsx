@@ -33,14 +33,19 @@ const ExperienceTimeline = () => {
     <Container maxWidth="md" sx={{ my: { xs: 6, md: 12 } }}>
       {/* Header */}
       <Typography
-        variant="h4"
-        fontWeight="bold"
-        textAlign="center"
-        gutterBottom
-        color={colors.primary}
-      >
-        Work Experience
-      </Typography>
+                variant="h2"
+                align="center"
+                fontWeight="900"
+                sx={{
+                  mb: 2,
+                  background:
+                    "linear-gradient(90deg, #253C67)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                Work Experience
+              </Typography>
 
       <Typography
         variant={isMobile ? "body1" : "h5"}

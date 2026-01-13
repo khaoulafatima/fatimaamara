@@ -1,0 +1,38 @@
+{
+  "skills": [
+    {
+      "category": "Programming",
+      "items": ["Python", "Java", "C", "Prolog", "R", "SQL", "Matlab"]
+    },
+    {
+      "category": "Semantic Web",
+      "items": ["RDF", "RDFS", "OWL", "SPARQL", "SWRL"]
+    },
+    {
+      "category": "Databases",
+      "items": ["MySQL", "PostgreSQL", "Oracle", "Access"]
+    },
+    {
+      "category": "Web",
+      "items": ["HTML", "CSS", "PHP", "XML"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "GitHub", "LaTeX", "Microsoft Office"]
+    },
+    {
+      "category": "Soft Skills",
+      "items": ["Communication", "Adaptability", "Time Management", "Collaboration"]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "English (Fluent)",
+        "French (Fluent)",
+        "Arabic (Native)",
+        "Kabyle (Native)",
+        "Italian (A2)"
+      ]
+    }
+  ]
+}

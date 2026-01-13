@@ -9,6 +9,7 @@ import Contact from "./pages/contact";
 import Fragments from "./pages/Fragments";
 import EventTimeline from "./pages/EventTimeline";
 import Reviewing from "./pages/Reviewing";
+import Skills from "./pages/skills.jsx";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
            <Route path="Fragments" element={<Fragments/>} />
            <Route path="EventTimeline" element={<EventTimeline/>} />
            <Route path="Reviewing" element={<Reviewing/>} />
+           <Route path="skills" element={<Skills/>} />
         </Route>
       </Routes>
     </Router>
