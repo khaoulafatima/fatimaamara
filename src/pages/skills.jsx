@@ -36,7 +36,7 @@ export default function SkillsPage() {
     >
       {/* Header */}
       <Typography
-        variant="h2"
+        variant="h3"
         align="center"
         fontWeight="900"
         sx={{

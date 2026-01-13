@@ -33,7 +33,7 @@ const EducationTimeline = () => {
     <Container maxWidth="md" sx={{ my: { xs: 6, md: 12 } }}>
       {/* Header */}
    <Typography
-             variant="h2"
+             variant="h3"
              align="center"
              fontWeight="900"
              sx={{

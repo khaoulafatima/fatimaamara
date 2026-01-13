@@ -25,7 +25,7 @@ const FragmentsComponent = () => {
     <Container maxWidth="lg" sx={{ my: { xs: 6, md: 14 } }}>
       {/* Title */}
       <Typography
-                variant="h2"
+                variant="h3"
                 align="center"
                 fontWeight="900"
                 sx={{

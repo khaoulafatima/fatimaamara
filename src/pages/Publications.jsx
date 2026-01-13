@@ -33,7 +33,7 @@ const PublicationsList = () => {
     <Container sx={{ my: { xs: 8, md: 12 } }}>
       {/* Header */}
     <Typography
-              variant="h2"
+              variant="h3"
               align="center"
               fontWeight="900"
               sx={{

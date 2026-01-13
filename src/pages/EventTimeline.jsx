@@ -46,7 +46,7 @@ const EventTimelinePage = () => {
         <Container sx={{ my: { xs: 10, md: 14 } }}>
             {/* Header */}
             <Typography
-                      variant="h2"
+                      variant="h3"
                       align="center"
                       fontWeight="900"
                       sx={{
