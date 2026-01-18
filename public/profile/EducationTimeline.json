@@ -40,6 +40,20 @@
           "url": ""
    }
       ]
+    },
+    
+    {
+      "institution": "Achi Brothers High School, Kais, Khenchela, Algeria.",
+      "degree": "Baccalaureate in Technical Mathematics, Electrical Engineering",
+      "period": "2009 - 2013",
+      "logo": "/images/ly.png",
+      "courses": ["11.11/20 "],
+      "links": [
+        {
+          "label": "",
+          "url": ""
+   }
+      ]
     }
 
 
